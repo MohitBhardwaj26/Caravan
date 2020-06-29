@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="13dp">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="20dp">
+
+        <ImageView
+                android:id="@+id/joey"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/pic" />
+
+        <TextView
+                android:id="@+id/about_us_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/joey"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:gravity="center"
+                android:textColor="#212121"
+                android:textSize="17sp" />
+
+        <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10sp"
+                android:text="Carvaan Music Player is an offline audio player without advertisements. Its simple user interface makes it easy to use and  matches every basic need of users."
+                android:textColor="#212121"
+                android:layout_centerInParent="true"
+                android:textStyle="italic"
+                android:layout_below="@+id/joey"
+                android:textSize="17sp" />
+
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentRight="true"
+                android:text=" Developed by:"
+                android:textStyle="bold"
+                android:paddingTop="10sp"
+                android:textColor="#212121"
+                android:layout_below="@+id/textView"
+                android:textSize="17sp" />
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentRight="true"
+                android:text="#MOHIT SHARMA"
+                android:textStyle="bold"
+                android:textColor="#D2691E"
+                android:layout_below="@+id/textView1"
+                android:textSize="17sp" />
+
+
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+</RelativeLayout>

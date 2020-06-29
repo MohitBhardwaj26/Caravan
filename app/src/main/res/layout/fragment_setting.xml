@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:paddingTop="11dp">
+
+    <TextView
+            android:id="@+id/shaketochange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Shake to change song"
+            android:textColor="#212121"
+            android:textSize="17sp" />
+
+    <TextView
+            android:id="@+id/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:text="(This feature is not available yet..it can be accessed in the next updated version)"
+            android:textColor="#808080"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:paddingTop="410dp"
+            android:textStyle="italic"
+            android:layout_below="@id/shaketochange"
+            android:textSize="17sp"
+            android:layout_alignParentRight="true"/>
+
+
+    <Switch
+
+            android:id="@+id/switchShake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/shaketochange"
+            android:layout_marginRight="16dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:backgroundTint="#212121" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_below="@+id/shaketochange"
+            android:layout_margin="25dp"
+            android:background="#bdbdbd" />
+</RelativeLayout>
